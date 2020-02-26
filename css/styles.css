@@ -1,23 +1,26 @@
 body {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif; 
+  background-image: linear-gradient(to right, #091421, #4f6153, #091421);
+}
 
 h1, h2, h3 {
   font-family: "Lobster", cursive; }
 
-h2 {
-  color: #3046C5; }
+h2, h3, p, a, a:hover {
+  color: white; }
 
 header h2 {
-  color: #CEC8FF; }
+  color: white; }
 
 footer {
-  background-image: linear-gradient(#CEC8FF, white);
-  padding: 20px 0; }
+  background-image: linear-gradient(to right, #091421, #4f6153, #091421);
+  padding: 20px 0;
+  color: white; }
 
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+  background-image: linear-gradient(to right, #091421, #4f6153, #091421);
   color: white; }
 
 .row-content {
@@ -26,7 +29,7 @@ footer {
   min-height: 200px; }
 
 .navbar {
-  background-color: #901CAD; }
+  background-image: linear-gradient(to right, #091421, #4f6153, #091421); }
 
 /* .tab-content {
     border: 1px solid #DDD;
